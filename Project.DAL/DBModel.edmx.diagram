@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c78484f9840e4d6598415a10416c8607" Name="Diagram1">
+        <EntityTypeShape EntityType="PROModel.Alert" Width="1.5" PointX="12" PointY="4.875" />
+        <EntityTypeShape EntityType="PROModel.AlertNotification" Width="1.5" PointX="3" PointY="10" />
+        <EntityTypeShape EntityType="PROModel.AlertType" Width="1.5" PointX="0.75" PointY="10.75" />
+        <EntityTypeShape EntityType="PROModel.Applications" Width="1.5" PointX="0.75" PointY="6" />
+        <EntityTypeShape EntityType="PROModel.Customer" Width="1.5" PointX="14.75" PointY="0.75" />
+        <EntityTypeShape EntityType="PROModel.DataGenerator" Width="1.5" PointX="0.75" PointY="14.75" />
+        <EntityTypeShape EntityType="PROModel.DocumentCategory" Width="1.5" PointX="9.75" PointY="13.375" />
+        <EntityTypeShape EntityType="PROModel.DocumentFormat" Width="1.5" PointX="9.75" PointY="9.25" />
+        <EntityTypeShape EntityType="PROModel.DocumentInfo" Width="1.5" PointX="14.25" PointY="13" />
+        <EntityTypeShape EntityType="PROModel.DocumentType" Width="1.5" PointX="12" PointY="13.125" />
+        <EntityTypeShape EntityType="PROModel.Employee" Width="1.5" PointX="3" PointY="1" />
+        <EntityTypeShape EntityType="PROModel.EmployeeType" Width="1.5" PointX="0.75" PointY="1.625" />
+        <EntityTypeShape EntityType="PROModel.ExchangeRate" Width="1.5" PointX="2.75" PointY="14.75" />
+        <EntityTypeShape EntityType="PROModel.Memberships" Width="1.5" PointX="7.5" PointY="4.625" />
+        <EntityTypeShape EntityType="PROModel.News" Width="1.5" PointX="4.75" PointY="14.75" />
+        <EntityTypeShape EntityType="PROModel.PreOrder" Width="1.5" PointX="6.75" PointY="14.75" />
+        <EntityTypeShape EntityType="PROModel.Profiles" Width="1.5" PointX="7.5" PointY="1.25" />
+        <EntityTypeShape EntityType="PROModel.Resource" Width="1.5" PointX="14.75" PointY="8.75" />
+        <EntityTypeShape EntityType="PROModel.ResourcesInRole" Width="1.5" PointX="16.75" PointY="0.75" />
+        <EntityTypeShape EntityType="PROModel.Roles" Width="1.5" PointX="3" PointY="6" />
+        <EntityTypeShape EntityType="PROModel.UserDetail" Width="1.5" PointX="7.5" PointY="11.25" />
+        <EntityTypeShape EntityType="PROModel.Users" Width="1.5" PointX="5.25" PointY="5.625" />
+        <EntityTypeShape EntityType="PROModel.Workflow" Width="1.5" PointX="9.75" PointY="5" />
+        <EntityTypeShape EntityType="PROModel.WorkFlowActions" Width="1.5" PointX="12" PointY="1.375" />
+        <EntityTypeShape EntityType="PROModel.WorkflowStepActions" Width="1.5" PointX="14.25" PointY="5.25" />
+        <EntityTypeShape EntityType="PROModel.WorkflowSteps" Width="1.5" PointX="12" PointY="8.875" />
+        <AssociationConnector Association="PROModel.FK_Alert_WorkFlow" />
+        <AssociationConnector Association="PROModel.FK_WorkflowStepActions_Alert" />
+        <AssociationConnector Association="PROModel.FK_AlertNotification_AlertType" />
+        <AssociationConnector Association="PROModel.MembershipApplication" />
+        <AssociationConnector Association="PROModel.RoleApplication" />
+        <AssociationConnector Association="PROModel.UserApplication" />
+        <AssociationConnector Association="PROModel.FK_DocumentType_DocumentCategory" />
+        <AssociationConnector Association="PROModel.FK_DocumentInfo_DocumentType" />
+        <AssociationConnector Association="PROModel.FK_Employee_EmployeeType" />
+        <AssociationConnector Association="PROModel.MembershipUser" />
+        <AssociationConnector Association="PROModel.UserProfile" />
+        <AssociationConnector Association="PROModel.FK_UserDetail_Users" />
+        <AssociationConnector Association="PROModel.FK_WorkFlowActions_Workflow" />
+        <AssociationConnector Association="PROModel.FK_WorkflowSteps_Workflow" />
+        <AssociationConnector Association="PROModel.FK_WorkflowStepActions_WorkFlowActions" />
+        <AssociationConnector Association="PROModel.FK_WorkflowStepActions_WorkflowSteps" />
+        <AssociationConnector Association="PROModel.DocumentTypeFormat" />
+        <AssociationConnector Association="PROModel.UsersInRoles" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

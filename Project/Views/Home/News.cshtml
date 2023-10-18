@@ -1,0 +1,65 @@
+﻿@model Project.Models.IndexViewModel
+@{
+    ViewBag.Title = "Latest News";
+    Layout = "~/Views/Shared/_BlankLayout.cshtml";
+}
+
+
+<div class="breadcrumb_section page_title_light background_bg overlay_bg_80" data-img-src="../Content/NewFront/assets/images/slider1.jpg" style="background-image: url(&quot;../Content/NewFront/assets/images/slider1.jpg&quot;);">
+    <div class="container">
+        <!-- STRART CONTAINER -->
+        <div class="row align-items-center">
+            <div class="col-lg-5 offset-lg-1 col-md-5">
+                <ol class="breadcrumb justify-content-md-end mb-3 mb-md-0">
+                    <li class="breadcrumb-item"><a href="@Url.Action("Index", "Home", new { Area = ""})">Home</a></li>
+                    <li class="breadcrumb-item active">Latest News</li>
+                </ol>
+            </div>
+            <div class="col-lg-6 col-md-7 order-md-first">
+                <div class="page-title">
+                    <h1>Latest News</h1>
+                </div>
+
+            </div>
+        </div>
+    </div><!-- END CONTAINER-->
+</div>
+
+<div class="section pb_20">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-8 animation animated fadeInUp" data-animation="fadeInUp" data-animation-delay="0.2s" style="animation-delay: 0.2s; opacity: 1;">
+                <div class="heading_s1 text-center">
+                    <h2>Latest News</h2>
+                </div>
+                <div class="small_divider clearfix"></div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            @foreach (var n in Model.NewsList)
+            {
+                <div class="col-lg-4 col-md-6 animation animated fadeInUp" data-animation="fadeInUp" data-animation-delay="0.2s" style="animation-delay: 0.2s; opacity: 1;">
+                    <div class="blog_post blog_style2 box_shadow1">
+                        <div class="blog_img">
+                            <a href="@Url.Action("NewsDetails", "Home", new {Id=n.Id, area = "" })">
+                                <img src="~/Content/TopFirstDocument/Photo/@n.Photo" alt="blog_small_img1">
+                            </a>
+                        </div>
+                        <div class="blog_content bg-white">
+                            <div class="blog_text">
+                                <h6 class="blog_title"><a href="@Url.Action("NewsDetails", "Home", new {Id=n.Id, area = "" })">@n.NewsHeadline</a></h6>
+                                <ul class="list_none blog_meta">
+                                    <li><a href="@Url.Action("NewsDetails", "Home", new {Id=n.Id, area = "" })"><i class="ti-calendar"></i> @n.CreatedDate.ToShortDateString()</a></li>
+                                    <li><a href="@Url.Action("NewsDetails", "Home", new {Id=n.Id, area = "" })"><i class="ti-comments"></i> @n.NoOfView View(s)</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+
+
+
+        </div>
+    </div>
+</div>

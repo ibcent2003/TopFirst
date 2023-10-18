@@ -1,0 +1,100 @@
+﻿@model Project.Models.IndexViewModel
+@{
+    ViewBag.Title = "News Details";
+    Layout = "~/Views/Shared/_BlankLayout.cshtml";
+}
+
+<div class="breadcrumb_section page_title_light background_bg overlay_bg_80" data-img-src="/../Content/NewFront/assets/images/slider1.jpg" style="background-image: url(&quot;/../Content/NewFront/assets/images/slider1.jpg&quot;);">
+    <div class="container">
+        <!-- STRART CONTAINER -->
+        <div class="row align-items-center">
+            <div class="col-lg-5 offset-lg-1 col-md-5">
+                <ol class="breadcrumb justify-content-md-end mb-3 mb-md-0">
+                    <li class="breadcrumb-item"><a href="@Url.Action("Index", "Home", new { Area = ""})">Home</a></li>
+                    <li class="breadcrumb-item active">News Details</li>
+                </ol>
+            </div>
+            <div class="col-lg-6 col-md-7 order-md-first">
+                <div class="page-title">
+                    <h1>News Details</h1>
+                </div>
+
+            </div>
+        </div>
+    </div><!-- END CONTAINER-->
+</div>
+
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="single_post">
+                    <div class="blog_img">
+                        <img src="~/Content/TopFirstDocument/Photo/@Model.news.Photo" alt="@Model.news.NewsHeadline">
+                    </div>
+                    <div class="blog_content">
+                        <div class="blog_text">
+                            <h2 class="blog_title">@Model.news.NewsHeadline</h2>
+                            <ul class="list_none blog_meta">
+                                <li><a href="#"><i class="ti-calendar"></i> @Model.news.CreatedDate.ToLongDateString()</a></li>
+                                <li><a href="#"><i class="ti-comments"></i> @Model.news.NoOfView View(s)</a></li>
+
+                                <li>  <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button pull-right" data-show-count="false">Tweet</a></li>
+
+
+                            </ul>
+                            <p>@Html.Raw(Model.news.NewsContent)</p>
+                                                                              
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="col-lg-3 mt-4 pt-2 mt-lg-0 pt-lg-0">
+                <div class="sidebar fixed_scroll_item" data-margintop="100" style="">                
+                    <div class="widget">
+                        <h5 class="widget_title">Recent Posts</h5>
+                      
+                        <ul class="widget_recent_post">
+                            @if (Model.NewsList.Count != 0)
+                            {
+                                foreach (var item in Model.NewsList.Take(4))
+                                {
+                                    <li>
+                                        <div class="post_footer">
+                                            <div class="post_img">
+                                                <a href="@Url.Action("NewsDetails", "Home", new {Id=item.Id, area = "" })"><img src="~/Content/TopFirstDocument/Photo/@item.Photo" width="70" height="70" alt="@item.NewsHeadline"></a>
+                                            </div>
+                                            <div class="post_content">
+                                                <h6><a href="@Url.Action("NewsDetails", "Home", new {Id=item.Id, area = "" })">@Html.Raw(item.NewsHeadline.Substring(0, 35))</a></h6>
+                                                <p class="small m-0">@item.CreatedDate.ToLongDateString()</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                }
+                            }
+                                </ul>
+                           
+                            </div>
+                    <div class="widget">
+                        <h5 class="widget_title">Archive</h5>
+                        <ul class="widget_archive">
+                            @if (Model.newslistDate.Count != 0)
+                            {
+                                foreach (var item in Model.newslistDate)
+                                {
+                                    <li><a href="#"><span class="archive_year">@Convert.ToDateTime(item).ToString("Y")</span></a></li>
+                                    
+                                }
+                            }
+
+                        </ul>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

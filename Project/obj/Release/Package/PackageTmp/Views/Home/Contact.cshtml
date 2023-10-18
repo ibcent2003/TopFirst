@@ -1,0 +1,75 @@
+﻿@model Project.Models.IndexViewModel
+@{
+    ViewBag.Title = "Contact";
+    Layout = "~/Views/Shared/_BlankLayout.cshtml";
+}
+
+
+<div class="breadcrumb_section page_title_light background_bg overlay_bg_80" data-img-src="../Content/NewFront/assets/images/slider1.jpg" style="background-image: url(&quot;../Content/NewFront/assets/images/slider1.jpg&quot;);">
+    <div class="container">
+        <!-- STRART CONTAINER -->
+        <div class="row align-items-center">
+            <div class="col-lg-5 offset-lg-1 col-md-5">
+                <ol class="breadcrumb justify-content-md-end mb-3 mb-md-0">
+                    <li class="breadcrumb-item"><a href="@Url.Action("Index", "Home", new { Area = ""})">Home</a></li>
+                    <li class="breadcrumb-item active">Contact</li>
+                </ol>
+            </div>
+            <div class="col-lg-6 col-md-7 order-md-first">
+                <div class="page-title">
+                    <h1>Contact</h1>
+                </div>
+
+            </div>
+        </div>
+    </div><!-- END CONTAINER-->
+</div>
+
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 animation mt-4 mt-lg-0 animated fadeInUp" data-animation="fadeInUp" data-animation-delay="0.3s" style="animation-delay: 0.3s; opacity: 1;">
+                <div class="map">
+                    
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.0009556327!2d7.4744996207689045!3d9.063675972696263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0b00d5eb2c89%3A0x573c3ea77b9ecb3b!2sMusawa%20House!5e0!3m2!1sen!2sng!4v1681035951506!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="col-lg-6 animation mt-4 mt-lg-0 animated fadeInUp" data-animation="fadeInUp" data-animation-delay="0.3s" style="animation-delay: 0.3s; opacity: 1;">
+                <div class="heading_s1">
+                    <h2>Contact Info</h2>
+                </div>
+               
+                <ul class="contact_wrap">
+                    <li>
+                        <div class="contact_icon">
+                            <i class="linearicons-map2 "></i>
+                        </div>
+                        <div class="contact_text">
+                            <span>Address</span>
+                            <p>Suite 16, AMG House, by Oshakati close Adjecent Musawa Plaza Zone 4 Wuse, Abuja, Nigeria.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="contact_icon">
+                            <i class="linearicons-envelope-open "></i>
+                        </div>
+                        <div class="contact_text">
+                            <span>Email Address</span>
+                            <a href="mailto:info@topfirstexchangebdc.com">info@topfirstexchangebdc.com</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="contact_icon">
+                            <i class="linearicons-tablet2"></i>
+                        </div>
+                        <div class="contact_text">
+                            <span>Phone</span>
+                            <p>+2347034595351, +234802070034, +2348066111112</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

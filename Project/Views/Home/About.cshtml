@@ -1,0 +1,44 @@
+﻿@model Project.Models.IndexViewModel
+@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_BlankLayout.cshtml";
+}
+
+
+<div class="breadcrumb_section page_title_light background_bg overlay_bg_80" data-img-src="../Content/NewFront/assets/images/slider1.jpg" style="background-image: url(&quot;../Content/NewFront/assets/images/slider1.jpg&quot;);">
+    <div class="container">
+        <!-- STRART CONTAINER -->
+        <div class="row align-items-center">
+            <div class="col-lg-5 offset-lg-1 col-md-5">
+                <ol class="breadcrumb justify-content-md-end mb-3 mb-md-0">
+                    <li class="breadcrumb-item"><a href="@Url.Action("Index", "Home", new { Area = ""})">Home</a></li>                    
+                    <li class="breadcrumb-item active">About</li>
+                </ol>
+            </div>
+            <div class="col-lg-6 col-md-7 order-md-first">
+                <div class="page-title">
+                    <h1>About Us</h1>
+                </div>
+                
+            </div>
+        </div>
+    </div><!-- END CONTAINER-->
+</div>
+
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="heading_s1">
+                    <h5>About</h5>
+                </div>
+                <blockquote class="blockquote_style1">
+                    <p>TopFirst Forex Services is a leading provider of foreign exchange services to clients around the world. We specialize in providing reliable, efficient, and cost-effective solutions to businesses and individuals who need to exchange currencies for various purposes.</p>
+                    <p>Our team of experienced professionals is dedicated to helping our clients achieve their financial goals. We understand the complexities of the global forex market and work closely with our clients to develop customized strategies that meet their unique needs and goals. Whether you need to exchange currencies for international trade, travel, or investment purposes, we can help.</p>
+                    <p>At TopFirst Forex Services, we pride ourselves on our commitment to excellence. We strive to deliver the highest quality services to our clients, and we are constantly innovating and adapting to meet the changing needs of the marketplace. We believe that by staying ahead of the curve and embracing new technologies and approaches, we can help our clients achieve success and stay ahead of their competition.</p>
+                </blockquote>
+            </div>
+        </div>
+       
+    </div>
+</div>

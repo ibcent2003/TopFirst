@@ -1,0 +1,184 @@
+/*!
+Author       : Bestwebcreator.
+Template Name: Adage - Creative Business & Portfolio Multi-purpose HTML5 Template
+Version      : 1.0
+*/
+a:hover,
+.navbar .navbar-nav > li > a.active, 
+.navbar .navbar-nav > li:hover > a, 
+.top-header.light_skin .header_list li a:hover, 
+.top-header.light_skin .contact_detail li a:hover, 
+.top-header.light_skin .header_list li a:hover span,
+.light_skin.transparent_header.nav-fixed .navbar .navbar-nav > li > a.active, 
+.light_skin.transparent_header.nav-fixed .navbar .navbar-nav > li:hover > a,
+.dark_skin .navbar .navbar-nav .dropdown-menu li a.active, 
+.dark_skin .navbar .navbar-nav .dropdown-menu li a:hover, 
+.dark_skin .navbar .navbar-nav .dropdown-menu > ul > li:hover > a, 
+.dark_skin .navbar .navbar-nav .dropdown-menu > ul > .mega-menu-col ul > li:hover > a,
+.navbar .navbar-nav .dropdown-menu li a.active, 
+.navbar .navbar-nav .dropdown-menu li a:hover, 
+.navbar .navbar-nav .dropdown-menu > ul > li:hover > a, 
+.navbar .navbar-nav .dropdown-menu > ul > .mega-menu-col ul > li:hover > a,
+.navbar .navbar-nav .dropdown-menu li a.active, .navbar .navbar-nav .dropdown-menu li a:hover, .navbar .navbar-nav .dropdown-menu > ul > li:hover > a, .navbar .navbar-nav .dropdown-menu > ul > .mega-menu-col ul > li:hover > a, .sticky_dark_skin.nav-fixed .navbar .navbar-nav .dropdown-item:hover,
+.sticky_dark_skin.nav-fixed .navbar .navbar-nav .dropdown-item.active,
+.btn-fill-out:hover,
+.sub_heading,
+.icon_box_style2 .icon,
+.list_style1 li::before,
+.social_icons li a:hover,
+.footer_dark a:hover, 
+.footer_dark .widget_links li a:hover, 
+.widget_links li a:hover, 
+.footer_dark .footer_link li a:hover, 
+.footer_link li a:hover,
+.blog_meta li a i,
+.author_name span,
+.link_container a,
+.grid_filter li a.current,
+.indicators_style1.carousel-indicators li.active::before,
+.social_white .social_icons li a:hover, .social_white.social_icons li a:hover,
+.social_icons li a:hover, .header_wrap .social_icons li a:hover,
+.icon_box_style3 .icon i,
+.icon_box_style4 .icon i,
+.profile_info a:hover,
+.resume_box span,
+.contact_icon i,
+.contact_text a:hover,
+.icon_box_style5 .icon i,
+.icon_box_style6 .icon i,
+.counter_style1 .counter_text,
+.social_style4 li a,
+.blog_post.blog_style3 .blog_content a:hover,
+.sc_num,.list_style3 li::before,
+.icon_box_style7 .icon,
+.testimonial_wrap .testimonial_box::before,
+.widget_tweet_feed a,
+.toggle_info i,
+.order_complete i,
+.product_sort_info li i,
+.shorting_icon.active,
+.shop_container.list .pr_action_btn li.add-to-cart a:hover,
+.shop_container.list .pr_action_btn li a:hover,
+.contact_info_style2 li i,
+.service_list li .icon i,
+.service_list li a:hover .service_title *, .service_list li.active a .service_title *,
+.list_style4 li i,
+.icon_box_style8 .icon i,
+.tab-style3 .nav-tabs li.nav-item a.active, 
+.tab-style3 .nav-tabs li.nav-item a.active:hover,
+.heading_s4 .heading_icon i,
+.menu_price,
+.icon_box_style9 .icon i,
+.btn-ripple-white .ripple,
+.classes_schedule li i,
+.cl_price h5,
+.event_meta li i,
+.pr_icon i,
+.courses_meta li i,
+.event_meta li i,
+.courses_price span,
+.event_price span,
+.add_to_wishlist a:hover,
+.widget_features li i {
+	color: #FF9F54;
+}
+
+.btn-fill-out:hover {
+    color: #FF9F54 !important;
+}
+
+.btn-fill-out::before,
+.btn-out-border,
+.ripple,.ripple::before,.ripple::after,
+.hover_menu_style1 .navbar-collapse .navbar-nav > li > a::before,
+.icon_box_style1 .icon,
+.icon_box_style1 .icon::before,
+.scrollup:hover,
+.social_icons.social_style1 li a:hover,
+.owl-theme .owl-nav [class*="owl-"],
+.link_container a:hover,
+.carousel-control-next:hover, .carousel-control-prev:hover, 
+.light_arrow .carousel-control-next:hover, .light_arrow .carousel-control-prev:hover,
+.grid_filter.filter_style1 li a.current,
+.icon_box_style4:hover,
+.skill_content .progress-bar,
+.scrollup_style1,
+.social_style4 li a:hover,
+.post_date,.btn-link::before,
+.tags a:hover,
+.border_social .social_icons li a:hover, .border_social.social_icons li a:hover,
+.pagination_style1 .page-item.active .page-link, .pagination_style1 .page-item .page-link:hover,
+.custome-checkbox input[type="checkbox"]:checked + .form-check-label::before,
+.custome-radio input[type="radio"] + .form-check-label::after,
+.pr_style2 .count_pr::before,
+.pr_style2 .count_pr::after,
+.nav_style4.owl-theme .owl-nav [class*="owl-"]:hover, .nav_style5.owl-theme .owl-nav [class*="owl-"]:hover,
+.scroll_down_icon .down,
+.tab-style1 .nav-tabs li.nav-item a.active, .tab-style1 .nav-tabs li.nav-item a.active:hover,
+.pr_action_btn li a:hover,
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span,
+.shop_container.list .pr_action_btn li.add-to-cart a,
+.filter_price .ui-slider .ui-slider-range,
+.process_tab li a::after,.steps_progress,
+.blockquote_style2,
+.pagination_style3 .page-item.active .page-link, .pagination_style3 .page-item .page-link:hover,
+.cart_count,
+.tab-style2 .nav-tabs li.nav-item a.active, .tab-style2 .nav-tabs li.nav-item a.active:hover,
+.pagination_style2 .page-item.active a, .pagination_style2 .page-item a:hover,
+.pagination_style4 .page-item.active a, .pagination_style4 .page-item a:hover,
+.icon_box_style8 .icon_box_content h5::before,
+.wotking_hours li span.closed,
+.icon_box_style9 .icon::before,
+.schedule_box:hover,
+.event_dt,
+.course_tabs .nav-tabs li.nav-item a.active,
+.item_meta.duration,
+.link::after,
+.contact_style3 .contact_icon::before,
+.divider.divider_style1 i {
+	background-color: #FF9F54;
+}
+
+.icon_box_style2 .icon,
+.pr_icon {
+	background-color: rgba(255,159,84,0.2);
+}
+
+.list_style3 li::before,
+.icon_box_style7 .icon,
+.empty_icon,
+.contact_style2 .contact_icon {
+	background-color: #FFEDDF;
+}
+
+.btn-fill-out,
+.btn-out-border::after,
+.btn-out-border::before,
+.grid_filter.filter_style2 li a.current,
+.icon_box_style6 .icon_box_content .link:hover,
+.icon_box_style6::after,.icon_box_style6::before,
+.border_social .social_icons li a:hover, .border_social.social_icons li a:hover,
+.pagination_style1 .page-item.active .page-link, .pagination_style1 .page-item .page-link:hover,
+.custome-checkbox input[type="checkbox"]:checked + .form-check-label::before,
+.custome-radio input[type="radio"]:checked + .form-check-label::before,
+.product_gallery_item a.active,
+.product_size_switch span.active,
+.product_color_switch span.active::before,
+.tab-style1 .nav-tabs li.nav-item a.active, .tab-style1 .nav-tabs li.nav-item a.active:hover,
+.owl-theme .owl-dots .owl-dot span,
+.shop_container.list .pr_action_btn li.add-to-cart a,
+.process_tab li a::before,
+.pagination_style3 .page-item.active .page-link, .pagination_style3 .page-item .page-link:hover,
+.blockquote_style3,
+.banner_content_border,
+.contact_style3 .contact_icon {
+	border-color: #FF9F54;
+}
+
+.event_slider.slick-vertical .event_box.slick-current {
+	border-color: #FF9F54 !important;
+}
+
+.text_default {
+	color: #FF9F54 !important;
+}

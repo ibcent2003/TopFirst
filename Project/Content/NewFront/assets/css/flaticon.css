@@ -1,0 +1,76 @@
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff2") format("woff2"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: "Flaticon";
+	font-style: normal;
+}
+
+.flaticon-creativity:before { content: "\f100"; }
+.flaticon-layout:before { content: "\f101"; }
+.flaticon-email:before { content: "\f102"; }
+.flaticon-bar-chart:before { content: "\f103"; }
+.flaticon-labor-man:before { content: "\f104"; }
+.flaticon-excavator:before { content: "\f105"; }
+.flaticon-home:before { content: "\f106"; }
+.flaticon-project:before { content: "\f107"; }
+.flaticon-painter:before { content: "\f108"; }
+.flaticon-drill:before { content: "\f109"; }
+.flaticon-null:before { content: "\f10a"; }
+.flaticon-house-repair:before { content: "\f10b"; }
+.flaticon-worker:before { content: "\f10c"; }
+.flaticon-trophy:before { content: "\f10d"; }
+.flaticon-friendship:before { content: "\f10e"; }
+.flaticon-deal:before { content: "\f10f"; }
+.flaticon-money-bag:before { content: "\f110"; }
+.flaticon-call:before { content: "\f111"; }
+.flaticon-health:before { content: "\f112"; }
+.flaticon-doctor:before { content: "\f113"; }
+.flaticon-neurology:before { content: "\f114"; }
+.flaticon-kidney:before { content: "\f115"; }
+.flaticon-tooth:before { content: "\f116"; }
+.flaticon-lungs:before { content: "\f117"; }
+.flaticon-pregnant:before { content: "\f118"; }
+.flaticon-heart:before { content: "\f119"; }
+.flaticon-hospital:before { content: "\f11b"; }
+.flaticon-doctor-1:before { content: "\f11c"; }
+.flaticon-left-quote:before { content: "\f11d"; }
+.flaticon-food:before { content: "\f11e"; }
+.flaticon-chef:before { content: "\f11f"; }
+.flaticon-food-1:before { content: "\f120"; }
+.flaticon-taco:before { content: "\f121"; }
+.flaticon-chef-1:before { content: "\f122"; }
+.flaticon-chips:before { content: "\f123"; }
+.flaticon-burger:before { content: "\f124"; }
+.flaticon-cake:before { content: "\f125"; }
+.flaticon-scooter:before { content: "\f126"; }
+.flaticon-food-2:before { content: "\f127"; }
+.flaticon-chef-2:before { content: "\f128"; }
+.flaticon-ice-cream:before { content: "\f129"; }
+.flaticon-electronics:before { content: "\f12a"; }
+.flaticon-yoga:before { content: "\f12b"; }
+.flaticon-herbal:before { content: "\f12c"; }
+.flaticon-lotus:before { content: "\f12d"; }
+.flaticon-yoga-2:before { content: "\f12e"; }
+.flaticon-yoga-1:before { content: "\f12f"; }
+.flaticon-yoga-3:before { content: "\f130"; }
+.flaticon-books:before { content: "\f131"; }
+.flaticon-teacher:before { content: "\f132"; }
